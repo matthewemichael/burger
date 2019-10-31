@@ -27,7 +27,13 @@ $(function() {
 
     var newBurger = {
       name: $("#ca").val().trim(),
+      devoured: "0"
     };
+
+    if (newBurger.length === 0) {
+      alert("Enter a Name!");
+      return false;
+    } else {
 
     // Send the POST request.
     $.ajax("/api/burgers", {
@@ -40,6 +46,7 @@ $(function() {
         location.reload();
       }
     );
+    };
   });
 
   $(".delete-burger").on("click", function(event) {

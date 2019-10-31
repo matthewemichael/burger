@@ -1,7 +1,86 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#main-container {
+  max-width: 1024px;
+  background-color: #FEEEAF;
+  border-radius: 5px;
+  z-index: 2;
+  box-shadow: 0 8px 12px -6px black;
+  margin-bottom: 15px;
+}
+
+footer {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.jumbotron {
+  background: url("/assets/images/mcdbanner2.jpg");
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 460px;
+  text-align: center !important;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  border: 1px solid white;
+/*   z-index: 2;
+  box-shadow: 0 8px 12px -6px black; */
+}
+
+#content-container {
+  padding: 0;
+}
+
+.card {
+  border: 1px solid white ;
+  margin-bottom: 15px;
+}
+.card-header {
+  background: #236424;
+  display: flex;             
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.card-title {
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: bolder;
+  
+}
+
 li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+button {
+  background-color: #fdd531 !important;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #b72227 !important;
+  color: white;
+}
+
+.change-devoured {
+  margin-right: 20px;
+
 }
 
 .label {
@@ -11,9 +90,12 @@ li {
 .create-update-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
 }
 
 .form-group {
   margin-bottom: 5px;
+}
+
+#ca {
+  margin-right: 5px;
 }
