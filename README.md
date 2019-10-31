@@ -16,7 +16,7 @@ This project uses MySQL, Node, Express, Handlebars and an ORM (Object Relational
 This project also follows the MVC (Model-View-Controller) design pattern. The MVC design pattern assigns objects in the application one of three roles (model, view, or controller) and defines the way the different parts of the application communicate with one another.  
 
 
-![screenshot](/public/images/burger-screenshot.png
+![screenshot](/public/assets/images/burger-screenshot.png)
 
 - - -
 
