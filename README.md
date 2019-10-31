@@ -1,11 +1,15 @@
 # Eat-Da-Burger!  
 #### A restaurant app built with MySQL, Node, Express, Handlebars and an ORM.  
 
+https://mcdowells-burger.herokuapp.com/
+
 - - -
 
 ## Overview
 
 Eat-Da-Burger! is a full stack restaurant app created with MySQL, Node, Express, Handlebars and an ORM (object-relational mapper) that lets users input the names of burgers they'd like to eat, devour them and throw away. Whenever a user submits a burger's name, the app displays the burger on the left side of the page -- waiting to be devoured. Each burger in the waiting area has an `Eat It!` button. When the user clicks it, the burger moves to the right side of the page where it can be thrown away or devoured again. The app stores every burger in a database, whether devoured or not.  
+
+![screenshot](/public/assets/images/burger-screenshot.png)
 
 - - -  
 
@@ -14,9 +18,6 @@ Eat-Da-Burger! is a full stack restaurant app created with MySQL, Node, Express,
 This project uses MySQL, Node, Express, Handlebars and an ORM (Object Relational Mapper). Node and MySQL are used to query and route data in the application. Express is the backend web framework used for this application, and Handlebars is a templating language that is used to generate the HTML.  
 
 This project also follows the MVC (Model-View-Controller) design pattern. The MVC design pattern assigns objects in the application one of three roles (model, view, or controller) and defines the way the different parts of the application communicate with one another.  
-
-
-![screenshot](/public/assets/images/burger-screenshot.png)
 
 - - -
 
